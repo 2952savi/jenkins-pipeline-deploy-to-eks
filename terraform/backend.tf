@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "vinay01"
-    region = "ap-south-1"
+    bucket = "vinay02"
+    region = "us-east-1"
     key = "eks/terraform.tfstate"
   }
 }
