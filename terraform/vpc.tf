@@ -9,7 +9,7 @@ module "myapp-vpc" {
   azs             = data.aws_availability_zones.azs.names
 
   enable_nat_gateway   = true
-  single_nat_gateway   = true
+  single_nat_gateway   = false
   enable_dns_hostnames = true
 
   tags = {
